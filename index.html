@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Attempted MCQs 1/137</h1>
+        
+        <!-- MCQ Question 1 -->
+        <div class="mcq">
+            <p>1. SI unit of permittivity of free space are:</p>
+            <form id="mcq1" class="options">
+                <label>
+                    <input type="radio" name="q1" value="Nm2C-2"> Nm²C⁻²
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="NmC-1"> N⁻¹m²C⁻¹
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="CN1m1"> C²N⁻¹m⁻¹
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="correct"> C²N⁻¹m⁻²
+                </label><br>
+            </form>
+            <div id="feedback1" class="feedback"></div>
+        </div>
+
+        <!-- More MCQs can be added here following the same pattern -->
+
+        <button onclick="checkAnswer('mcq1', 'correct', 'feedback1')">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
